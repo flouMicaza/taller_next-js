@@ -37,8 +37,8 @@ const CardPablo = styled.p`
   font-family: "Raleway", sans-serif;
   margin-top: 8px;
   font-size: 18px;
-  font-color: #ff33d0;
-`;
+  font-color: red;
+`;  
 
 const Card: React.FC<CardProps> = ({ imageSrc, title, onClick }) => {
   return (
