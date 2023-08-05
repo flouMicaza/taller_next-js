@@ -33,11 +33,19 @@ const CardTitle = styled.h3`
   font-size: 18px;
 `;
 
+const CardPablo = styled.p`
+  font-family: "Raleway", sans-serif;
+  margin-top: 8px;
+  font-size: 18px;
+  font-color: #ff33d0;
+`;
+
 const Card: React.FC<CardProps> = ({ imageSrc, title, onClick }) => {
   return (
     <CardContainer onClick={onClick}>
       <CardImage src={imageSrc} alt={title} />
       <CardTitle>{title}</CardTitle>
+      <CardPablo>Hola Pablo</CardPablo>
     </CardContainer>
   );
 };

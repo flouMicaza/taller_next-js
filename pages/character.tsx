@@ -13,7 +13,7 @@ function Character() {
 
   return (
     <Container>
-      <Text>Taller Women Who Code Santiago</Text>
+      <Text>Personajeeee</Text>
       <Card
         key={character?.id}
         imageSrc={character?.image}

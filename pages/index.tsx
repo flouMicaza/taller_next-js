@@ -136,7 +136,7 @@ function Home() {
 
   return (
     <Container>
-      <Text>Taller Women Who Code Santiago</Text>
+      <Text> Los monos de rick and morty</Text>
       <Grid>
         {characters?.map((character) => (
           <Card
